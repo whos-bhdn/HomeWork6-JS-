@@ -35,21 +35,16 @@
 // console.log(func(5, 2))
 
 
-// const func = function(n,q) {
-//    b1 = 1;
-//    for (let i = 1; i < n; i++) {
-//       b1 = b1 * q;
+// const func = function(n, q) {
+//    let b1 = 1;
+//    let sum = 0;
+//    let str = '';
+//    for (let i = 0; i < n; i++) {
+//        sum += b1;
+//        str += b1 + ' ';
+//        b1 *= q;
 //    }
+//    console.log(str);
+//    return sum;
 // }
-
-// console.log(func(5,2))
-
-
-// let b1 = 1;
-// let q = 3;
-// let n = 5;
-// console.log(b1);
-// for (let i = 1; i < n; i++) {
-//   b1 *= q;
-//   console.log(b1);
-// 
+// console.log(func(5, 2));
